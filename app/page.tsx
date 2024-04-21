@@ -6,8 +6,8 @@ export default function Home() {
       <Tabs defaultValue="account" className="w-full h-full">
         <TabsList>
           <div className="flex flex-row gap-2">
-            <TabsTrigger value="account">Account</TabsTrigger>
-            <TabsTrigger value="password">Password</TabsTrigger>
+            <TabsTrigger value="account">Overview</TabsTrigger>
+            <TabsTrigger value="password">Domains</TabsTrigger>
           </div>
         </TabsList>
 
