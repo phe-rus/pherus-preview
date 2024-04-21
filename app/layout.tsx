@@ -5,6 +5,7 @@ import { Indicator } from "@/components/theme/indicator";
 import { Provider } from "@/components/theme/provider";
 import { cn } from "@/lib/utils";
 import { fontSans } from "@/lib/fonts";
+import { Header } from "@/components/header/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +42,8 @@ export default function RootLayout({
       >
         <Provider attribute="class" defaultTheme="system" enableSystem>
           <main className="flex h-screen flex-col w-screen">
-            {children}
+            <Header />
+            <div className="flex-1">{children}</div>
             <Indicator />
           </main>
         </Provider>
