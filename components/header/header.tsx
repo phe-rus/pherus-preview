@@ -12,8 +12,6 @@ export const Header = () => {
 
                     <nav className="flex gap-6">
                     </nav>
-                    <nav className="flex gap-6">
-
                 </div>
 
 
