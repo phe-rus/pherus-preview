@@ -41,7 +41,7 @@ export default function RootLayout({
         )}
       >
         <Provider attribute="class" defaultTheme="system" enableSystem>
-          <main className="flex h-screen flex-col w-screen">
+          <main className="flex min-h-screen flex-col w-screen bg-muted/30">
             <Header />
             <div className="flex-1">{children}</div>
             <Indicator />
