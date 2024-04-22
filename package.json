@@ -1,7 +1,18 @@
 {
-  "name": "54365417666a6f098b8d0a9934d4d4fd333f9431bbf57c267ca1f860b9245f",
+  "name": "preview",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "la niina",
+    "email": "la.niina@gmail.com",
+    "url": "https://pherus.org"
+  },
+  "bugs": {
+    "email": "la.niina@gmail.com",
+    "url": "https://github.com/phe-rus"
+  },
+  "displayName": "Preview",
+  "license":"UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
